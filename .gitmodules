@@ -1,0 +1,3 @@
+[submodule "core"]
+	path = www/src/core
+	url = git@github.com:schwarzdavid/oeamtc-core.git
