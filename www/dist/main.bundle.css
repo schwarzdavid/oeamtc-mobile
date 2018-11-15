@@ -1,14 +1,14 @@
 
-.withBg[data-v-3b2af685] {
+.withBg[data-v-404016a5] {
   background: url(images/start-background.jpg) no-repeat center center;
   background-size: cover;
 }
-.withMaxWidth[data-v-3b2af685] {
+.withMaxWidth[data-v-404016a5] {
   max-width: 650px !important;
 }
 
 
-.sectionCaption[data-v-e31da3ee] {
+.sectionCaption[data-v-973c9c72] {
   text-transform: uppercase;
   opacity: .7;
   font-size: .95rem;
