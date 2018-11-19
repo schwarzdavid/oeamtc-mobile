@@ -1,15 +1,16 @@
 import './router';
 import './hooks';
+import * as icon from './assets/eagle.png';
 
 import Oeamtc from './core/Core.vue';
 
 new Oeamtc().$mount('#app');
 
 window.cordova.plugins.backgroundMode.setDefaults({
-    title: 'ÖÄMTC Roadpatrol',
-    icon: 'icon-36-hdpi',
-    color: 'ff0000',
-    text: 'Some example text',
+    title: 'ÖAMTC Roadpatrol',
+    icon: `file://dist/${icon}`,
+    color: 'ffdc00',
+    text: 'ÖAMTC Roadpatrol running...',
     hidden: true
 });
 

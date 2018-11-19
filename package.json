@@ -1,14 +1,14 @@
 {
-  "name": "rocks.schwarzdavid.oeamtcroadpatrol",
-  "displayName": "./",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "oeamtc-roadpatrol",
+  "displayName": "ÖAMTC Roadpatrol",
+  "version": "0.0.1",
+  "description": "Proof-of-concept mobile example for the ÖAMTC Ideathon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
+  "author": "David Schwarz <schwarz.david10@gmail.com>",
+  "license": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schwarzdavid/oeamtc-mobile.git"

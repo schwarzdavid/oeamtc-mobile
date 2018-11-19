@@ -18,7 +18,7 @@ const config = {
 		filename: 'main.bundle.js'
 	},
 	resolve: {
-		extensions: ['.js', '.ts', '.vue'],
+		extensions: ['.js', '.ts', '.vue', '.png'],
 		alias: {
 			'core': path.resolve(publicSrcRoot, 'core'),
 			'@': root,
@@ -84,7 +84,7 @@ const config = {
 				}]
 			},
 			{
-				test: /\.(jpeg|jpg|png|gif|svg|webp)$/,
+				test: /\.(jpeg|jpg|png|gif|svg|webp)$/i,
 				use: [
 					{
 						loader: 'file-loader',
