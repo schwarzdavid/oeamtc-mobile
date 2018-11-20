@@ -15,6 +15,7 @@ window.cordova.plugins.backgroundMode.setDefaults({
 });
 
 window.cordova.plugins.backgroundMode.enable();
+window.cordova.plugins.backgroundMode.overrideBackButton();
 
 window.cordova.plugins.backgroundMode.on('activate', () => {
     window.cordova.plugins.backgroundMode.disableWebViewOptimizations();

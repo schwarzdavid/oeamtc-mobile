@@ -15,6 +15,14 @@
   font-style: italic;
 }
 
+
+.sectionCaption[data-v-53eebb80] {
+  text-transform: uppercase;
+  opacity: .7;
+  font-size: .95rem;
+  font-style: italic;
+}
+
 /* MaterialDesignIcons.com */
 @font-face {
   font-family: "Material Design Icons";
